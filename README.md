@@ -12,14 +12,14 @@ Usage
 =
 The program takes parameters three parameters such as input file, k, and number of most frequent k-mers to be listed via command line arguments.
 
-./kmerCounter "filename" "kmersize" "topcount" 
-Example: ./kmerCounter test.fastq 30 25)
+* ./kmerCounter "filename" "kmersize" "topcount" 
+* Example: ./kmerCounter test.fastq 30 25)
 
-filename : fastq file name
-kmersize : integer value between 1 and 256
-topcount : integer value between 1 and 10000
+* filename : fastq file name
+* kmersize : integer value between 1 and 256
+* topcount : integer value between 1 and 10000
 
-default signature length : 6 (signatureLen = k/2, if (1 < k < 6))
+* default signature length : 6 (signatureLen = k/2, if (1 < k < 6))
 
 Author : Batuhan Baskurt
 Date   : 2017-09-01
